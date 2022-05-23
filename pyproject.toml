@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "promnesia-docker"
+version = "0.0.0"
+description = ""
+authors = ["Keerthan Jaic <jckeerthan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+promnesia = {git = "https://github.com/karlicoss/promnesia", extras = ["html", "markdown"]}
+hpi = {git = "https://github.com/karlicoss/hpi", extras = ["optional"]}
+rexport = {git = "https://github.com/karlicoss/rexport"}
+hypexport = {git = "https://github.com/karlicoss/hypexport"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
