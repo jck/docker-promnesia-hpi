@@ -10,6 +10,7 @@ promnesia = {git = "https://github.com/karlicoss/promnesia", extras = ["html", "
 hpi = {git = "https://github.com/karlicoss/hpi", extras = ["optional"]}
 rexport = {git = "https://github.com/karlicoss/rexport"}
 hypexport = {git = "https://github.com/karlicoss/hypexport"}
+ipython = "^8.3.0"
 
 [tool.poetry.dev-dependencies]
 
