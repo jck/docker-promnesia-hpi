@@ -52,6 +52,23 @@ html5lib = ["html5lib"]
 lxml = ["lxml"]
 
 [[package]]
+name = "browserexport"
+version = "0.2.6"
+description = "save and merge browser history and metadata from different browsers"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+click = ">=8.0"
+IPython = "*"
+logzero = "*"
+sqlite-backup = ">=0.1.4"
+
+[package.extras]
+testing = ["pytest", "mypy", "flake8"]
+
+[[package]]
 name = "cachew"
 version = "0.10.0"
 description = "Easy sqlite-backed persistent cache for dataclasses"
@@ -625,6 +642,21 @@ pymysql = ["pymysql (<1)", "pymysql"]
 sqlcipher = ["sqlcipher3-binary"]
 
 [[package]]
+name = "sqlite-backup"
+version = "0.1.4"
+description = "A tool to copy sqlite databases you don't own"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+click = ">=7.0"
+logzero = "*"
+
+[package.extras]
+testing = ["pytest", "mypy", "pytest-reraise"]
+
+[[package]]
 name = "stack-data"
 version = "0.2.0"
 description = "Extract data from python stack frames and tracebacks for informative displays"
@@ -766,7 +798,7 @@ test = ["websockets"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "631db2ad04126eeddbef115c2bef7667a27dfc2c5237cd7fa9df0907372f96ab"
+content-hash = "a22c4a06b6d73e3f119a91e91e0d8acdda4f6d19571c2e42c69007e96d6e5516"
 
 [metadata.files]
 appdirs = [
@@ -788,6 +820,10 @@ backcall = [
 beautifulsoup4 = [
     {file = "beautifulsoup4-4.11.1-py3-none-any.whl", hash = "sha256:58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30"},
     {file = "beautifulsoup4-4.11.1.tar.gz", hash = "sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693"},
+]
+browserexport = [
+    {file = "browserexport-0.2.6-py3-none-any.whl", hash = "sha256:1962db948f29b542ee547fc9c72d3a5007e09f5e7101d7dd4c5ffaa4b2ab0aa1"},
+    {file = "browserexport-0.2.6.tar.gz", hash = "sha256:cdb338e79964c79a65aa5989032576b4902d18f531a8103f859dee0b69f8a3d1"},
 ]
 cachew = [
     {file = "cachew-0.10.0-py3-none-any.whl", hash = "sha256:d14ccbdff73fd35850ffa844e1373d5d604780d2c62197af69bcb3865041025e"},
@@ -1148,6 +1184,10 @@ sqlalchemy = [
     {file = "SQLAlchemy-1.4.36-cp39-cp39-win32.whl", hash = "sha256:e12532c4d3f614678623da5d852f038ace1f01869b89f003ed6fe8c793f0c6a3"},
     {file = "SQLAlchemy-1.4.36-cp39-cp39-win_amd64.whl", hash = "sha256:cb441ca461bf97d00877b607f132772644b623518b39ced54da433215adce691"},
     {file = "SQLAlchemy-1.4.36.tar.gz", hash = "sha256:64678ac321d64a45901ef2e24725ec5e783f1f4a588305e196431447e7ace243"},
+]
+sqlite-backup = [
+    {file = "sqlite_backup-0.1.4-py3-none-any.whl", hash = "sha256:a0f407a2c7fb19eb00eb7ba6b57ea7b8fe3f31f495d878b88a62bf0ad1a0a270"},
+    {file = "sqlite_backup-0.1.4.tar.gz", hash = "sha256:6f0107f5761d28e9c7abe5ea8c6d4be3d60fad18f1350a0f5821a2c100a72415"},
 ]
 stack-data = [
     {file = "stack_data-0.2.0-py3-none-any.whl", hash = "sha256:999762f9c3132308789affa03e9271bbbe947bf78311851f4d485d8402ed858e"},
