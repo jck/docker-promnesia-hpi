@@ -458,7 +458,7 @@ test = ["betamax (>=0.8,<0.9)", "betamax-matchers (>=0.4.0,<0.5)", "betamax-seri
 
 [[package]]
 name = "promnesia"
-version = "1.0.20220515"
+version = "1.0.20220516.dev1"
 description = "Enhancement of your browsing history"
 category = "main"
 optional = false
@@ -492,8 +492,8 @@ testing = ["pytest", "pytest-xdist", "psutil", "httpie", "selenium", "click", "p
 [package.source]
 type = "git"
 url = "https://github.com/karlicoss/promnesia.git"
-reference = "3a1ce4c"
-resolved_reference = "3a1ce4c3d7d50adf8d9fe4499336845a676fc22b"
+reference = "master"
+resolved_reference = "bc1a798386d3cd3b362b3c2d362498a2df2daae6"
 
 [[package]]
 name = "prompt-toolkit"
@@ -798,7 +798,7 @@ test = ["websockets"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "e3cfd75130401a8402c1c2914eb9bb523a673b43b2e40d30e62c88717fd303e5"
+content-hash = "e1cb77e25c8189ea83208f5bd07b6520455be3e0b019eb8b2390fcc21827c12b"
 
 [metadata.files]
 appdirs = [
