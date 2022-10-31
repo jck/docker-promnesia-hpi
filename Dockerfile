@@ -1,5 +1,5 @@
 # syntax = docker/dockerfile:experimental
-FROM ghcr.io/jck/python:3.11
+FROM ghcr.io/jck/python:latest
 
 ENV POETRY_VIRTUALENVS_IN_PROJECT=true
 ENV PATH="/app/.venv/bin:$PATH"
