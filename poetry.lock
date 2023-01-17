@@ -1381,14 +1381,14 @@ test = ["pytest (>=2.7.3)"]
 
 [[package]]
 name = "uritools"
-version = "4.0.0"
+version = "4.0.1"
 description = "URI parsing, classification and composition"
 category = "main"
 optional = false
 python-versions = "~=3.7"
 files = [
-    {file = "uritools-4.0.0-py3-none-any.whl", hash = "sha256:9a5a1495c55072093216f79931ca45fd81b59208aa64caae50ab68333514f97e"},
-    {file = "uritools-4.0.0.tar.gz", hash = "sha256:420d94c1ff4bf90c678fca9c17b8314243bbcaa992c400a95e327f7f622e1edf"},
+    {file = "uritools-4.0.1-py3-none-any.whl", hash = "sha256:d122d394ed6e6e15ac0fddba6a5b19e9fa204e7797507815cbfb0e1455ac0475"},
+    {file = "uritools-4.0.1.tar.gz", hash = "sha256:efc5c3a6de05404850685a8d3f34da8476b56aa3516fbf8eff5c8704c7a2826f"},
 ]
 
 [[package]]
