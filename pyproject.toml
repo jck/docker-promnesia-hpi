@@ -16,7 +16,7 @@ hpi = {git = "https://github.com/karlicoss/hpi.git", rev = "master", extras = ["
 rexport = {git = "https://github.com/karlicoss/rexport"}
 hypexport = {git = "https://github.com/karlicoss/hypexport"}
 ipython = "^8.6.0"
-browserexport = "^0.2.7"
+browserexport = "^0.4.0"
 
 [build-system]
 requires = ["poetry-core"]
