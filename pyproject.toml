@@ -6,7 +6,7 @@ authors = ["Keerthan Jaic <jckeerthan@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-promnesia = {git = "https://github.com/karlicoss/promnesia.git", rev = "master", extras = ["all"]}
+promnesia = {git = "https://github.com/karlicoss/promnesia.git", rev = "b08db7c2d0f8977ef75d3a87452bf880f0f31552", extras = ["all"]}
 #hpi = {git = "https://github.com/karlicoss/hpi.git", extras = ["optional"]}
 #rexport = {git = "https://github.com/karlicoss/rexport.git"}
 #hypexport = {git = "https://github.com/karlicoss/hypexport.git"}
