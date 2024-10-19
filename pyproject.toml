@@ -12,7 +12,7 @@ promnesia = {git = "https://github.com/karlicoss/promnesia.git", rev = "master",
 #hypexport = {git = "https://github.com/karlicoss/hypexport.git"}
 #ipython = "^8.3.0"
 #browserexport = "^0.2.6"
-hpi = {git = "https://github.com/karlicoss/hpi.git", rev = "master", extras = ["optional"]}
+hpi = {git = "https://github.com/karlicoss/hpi.git", rev = "8496d131e7e44b3effcc289762a4218aa1457725", extras = ["optional"]}
 rexport = {git = "https://github.com/karlicoss/rexport"}
 hypexport = {git = "https://github.com/karlicoss/hypexport"}
 ipython = "^8.6.0"
