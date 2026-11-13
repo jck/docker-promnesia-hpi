@@ -15,7 +15,7 @@ promnesia = {git = "https://github.com/karlicoss/promnesia.git", rev = "master",
 hpi = {git = "https://github.com/karlicoss/hpi.git", rev = "master", extras = ["optional"]}
 rexport = {git = "https://github.com/karlicoss/rexport"}
 hypexport = {git = "https://github.com/karlicoss/hypexport"}
-ipython = "^8.6.0"
+ipython = "^9.0.0"
 browserexport = "^0.2.7"
 
 [build-system]
